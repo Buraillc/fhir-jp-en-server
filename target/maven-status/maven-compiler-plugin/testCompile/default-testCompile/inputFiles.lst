@@ -1,0 +1,9 @@
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/ExampleServerDstu2IT.java
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/Demo.java
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/MultitenantServerR4IT.java
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/ExampleServerDstu3IT.java
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/ExampleServerR4IT.java
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/ElasticsearchLastNR4IT.java
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/IServerSupport.java
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/SocketImplementation.java
+/home/tomo/Documents/hapi-fhir-jpaserver-starter/src/test/java/ca/uhn/fhir/jpa/starter/ExampleServerR5IT.java
