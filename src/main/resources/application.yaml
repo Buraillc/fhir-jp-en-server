@@ -1,16 +1,15 @@
-#spring:
-  #datasource:
-   # url: 'jdbc:h2:file:./target/database/h2'
-   # url: jdbc:h2:mem:test_mem
-    #username: sa
-   # password: null
-   # driverClassName: org.h2.Driver
-   # max-active: 15
+spring:
+  datasource:
+    url: 'jdbc:h2:file:./target/database/h2'
+    url: jdbc:h2:mem:test_mem
+    username: sa
+    password: null
+    driverClassName: org.h2.Driver
+    max-active: 15
  spring:
   datasource:
-    url: 'jdbc:mysql://hapi.jibra.org:3306/hapi_dstu3'
-    username: admin
-    password: admin
+    url: 'jdbc:mysql://localhost:3306/hapi_dstu3'
+    password: P@ssw0rd
     driverClassName: com.mysql.jdbc.Driver
     max-active: 15
     # database connection pool size
@@ -42,7 +41,7 @@
       enabled: false
 hapi:
   fhir:
-    ### This enables the swagger-ui at /fhir/swagger-ui/index.html as well as the /fhir/api-docs (see https://hapifhir.io/hapi-fhir/docs/server_plain/openapi.html)
+  ### This enables the swagger-ui at /fhir/swagger-ui/index.html as well as the /fhir/api-docs (see https://hapifhir.io/hapi-fhir/docs/server_plain/openapi.html)
     openapi_enabled: true
     ### This is the FHIR version. Choose between, DSTU2, DSTU3, R4 or R5
     fhir_version: R4
