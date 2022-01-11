@@ -1,5 +1,4 @@
-
-  spring:
+spring:
   datasource:
     url: 'jdbc:h2:file:./target/database/h2'
     #url: jdbc:h2:mem:test_mem
@@ -35,7 +34,6 @@
   batch:
     job:
       enabled: false
-
 hapi:
   fhir:
     ### This enables the swagger-ui at /fhir/swagger-ui/index.html as well as the /fhir/api-docs (see https://hapifhir.io/hapi-fhir/docs/server_plain/openapi.html)
