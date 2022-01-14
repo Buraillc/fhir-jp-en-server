@@ -1,5 +1,13 @@
 steps:
+# Build the container image
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/ems-demo-a7d57/hapiproject/hapi', '.' ]
-options:
-    substitution_option: 'ALLOW_LOOSE'
+  args: ['build', '-t', 'gcr.io/ems-demo-a7d57/fhir-jp-en-server', '.']
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/ems-demo-a7d57/fhir-jp-en-server']
+# Deploy container image to Cloud Run
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args: ['run', 'deploy', 'fhir-jp-en-server', '--region', 'REGION']
+images:
+- gcr.io/ems-demo-a7d57/fhir-jp-en-server
