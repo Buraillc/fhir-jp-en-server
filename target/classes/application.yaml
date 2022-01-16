@@ -121,7 +121,7 @@ hapi:
 #    reuse_cached_search_results_millis: 60000
     tester:
         home:
-          name: Local Tester
+          name: Local Tester(JP_data)
           server_address: 'https://localhost:8080/baseR4'
           refuse_to_fetch_third_party_urls: false
           fhir_version: R4

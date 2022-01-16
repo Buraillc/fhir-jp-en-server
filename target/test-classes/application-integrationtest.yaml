@@ -8,7 +8,6 @@ spring:
      #url: 'jdbc:mysql://localhost:3306/hapi_dstu3'
      url: 'jdbc:mysql://localhost:3306/r4'
      username: admin
-     username: admin
      password: admin
      driverClassName: com.mysql.jdbc.Driver
      max-active: 15
@@ -69,7 +68,7 @@ hapi:
     tester:
       -
           id: home
-          name: Local Tester
+          name: Local Tester(JP_data)
           server_address: 'https://localhost:8080/baseR4'
           refuse_to_fetch_third_party_urls: false
           fhir_version: R4
